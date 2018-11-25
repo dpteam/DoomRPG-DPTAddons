@@ -1,0 +1,1 @@
+Name=ZDoom32 & LZDoom Fixes (Also for GZDoom)
