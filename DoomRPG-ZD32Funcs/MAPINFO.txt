@@ -10,12 +10,20 @@ episode OUTPOST
 	name = "UAC Outpost"
 	key = "U"
 	noskillmenu
+	optional
 }
 
 episode HUBMAP
 {
 	name = "COMPENDIUM"
-	key = "Z"
+	key = "C"
+	optional
+}
+
+episode VR
+{
+	name = "The Sentinel's Lexicon"
+	key = "S"
 	optional
 }
 
