@@ -1,80 +1,84 @@
 clearepisodes
-
 defaultmap
 {
 	allowrespawn
 }
-
 episode OUTPOST
 {
 	name = "UAC Outpost"
-	key = "U"
 	noskillmenu
 	optional
 }
-
 episode HUBMAP
 {
 	name = "COMPENDIUM"
-	key = "C"
 	optional
 }
-
 episode VR
 {
 	name = "The Sentinel's Lexicon"
-	key = "S"
 	optional
 }
-
 episode JUKEBOX
 {
 	name = "JUKEBOX"
-	key = "J"
 	optional
 }
-
 episode e1m1
 {
 	// print names instead of using graphic lump - looks weird next to
 	// episodes that don't have em
 	//picname = "M_EPI1"
 	name = "$D1EP1NAME"
-	key = "k"
 	optional
 }
-
 episode map01
 {
 	name = "$D2EP1NAME"
-	key = "h"
 	optional
 }
-
 episode nv_map01
 {
 	name = "$D2EP2NAME"
-	key = "n"
 	optional
 }
-
 episode ml_map01
 {
 	name = "$D2MLNAME"
-	key = "m"
 	optional
 }
-
 episode tn_map01
 {
 	name = "$TNTNAME"
-	key = "t"
 	optional
 }
-
 episode pl_map01
 {
 	name = "$PLUNAME"
-	key = "p"
+	optional
+}
+episode C1M1
+{
+	name = "FreeDOOM: Phase 1"
+	optional
+}
+episode FAP01
+{
+	name = "FreeDOOM: Phase 2"
+	optional
+}
+episode TAP01
+{
+	name = "FreeDOOM: Test Phase"
+	optional
+}
+episode FFA01
+{
+	name = "FreeDM"
+	optional
+}
+episode ZAP01
+{
+	name = "ZAP MISSIONS (Mobius)"
 	optional
 }
